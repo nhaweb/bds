@@ -1,0 +1,31 @@
+﻿/* Melodrama */
+@font-face {
+  font-family: 'Melodrama';
+  src: url('//cdn.fontshare.com/wf/5VLL2GNMI7FJHAQEL5CUQC4C4NBNGR5E/GKFR2R6V3LNC3ZIHGRDOQBNJLTKPZ3DD/L4FFZ42ZYAXAY4NBZUEEJDTQA75MJCQR.woff2') format('woff2'),
+       url('//cdn.fontshare.com/wf/5VLL2GNMI7FJHAQEL5CUQC4C4NBNGR5E/GKFR2R6V3LNC3ZIHGRDOQBNJLTKPZ3DD/L4FFZ42ZYAXAY4NBZUEEJDTQA75MJCQR.woff') format('woff'),
+       url('//cdn.fontshare.com/wf/5VLL2GNMI7FJHAQEL5CUQC4C4NBNGR5E/GKFR2R6V3LNC3ZIHGRDOQBNJLTKPZ3DD/L4FFZ42ZYAXAY4NBZUEEJDTQA75MJCQR.ttf') format('truetype');
+  font-weight: 300;
+  font-display: swap;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Melodrama';
+  src: url('//cdn.fontshare.com/wf/VEUKFNC77KIIUSHNOWJWAF2K4XRJIN3O/QVM7H4UBRHRYAZVIJFG42NIFQOHEU4LT/RSPG5F452B5Q23RR6KSVIVZS3KHJF6UY.woff2') format('woff2'),
+       url('//cdn.fontshare.com/wf/VEUKFNC77KIIUSHNOWJWAF2K4XRJIN3O/QVM7H4UBRHRYAZVIJFG42NIFQOHEU4LT/RSPG5F452B5Q23RR6KSVIVZS3KHJF6UY.woff') format('woff'),
+       url('//cdn.fontshare.com/wf/VEUKFNC77KIIUSHNOWJWAF2K4XRJIN3O/QVM7H4UBRHRYAZVIJFG42NIFQOHEU4LT/RSPG5F452B5Q23RR6KSVIVZS3KHJF6UY.ttf') format('truetype');
+  font-weight: 400;
+  font-display: swap;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Melodrama';
+  src: url('//cdn.fontshare.com/wf/RGK7K2PP2EWABN5ERL63PXQAGP7NCSUY/ZH4IXREE3YFPELFWVIUAZCBEHFSFDVYI/XC5RR3MD6B42AUH542IHY2IQVYBKHWES.woff2') format('woff2'),
+       url('//cdn.fontshare.com/wf/RGK7K2PP2EWABN5ERL63PXQAGP7NCSUY/ZH4IXREE3YFPELFWVIUAZCBEHFSFDVYI/XC5RR3MD6B42AUH542IHY2IQVYBKHWES.woff') format('woff'),
+       url('//cdn.fontshare.com/wf/RGK7K2PP2EWABN5ERL63PXQAGP7NCSUY/ZH4IXREE3YFPELFWVIUAZCBEHFSFDVYI/XC5RR3MD6B42AUH542IHY2IQVYBKHWES.ttf') format('truetype');
+  font-weight: 600;
+  font-display: swap;
+  font-style: normal;
+}
+
+
+

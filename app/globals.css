@@ -1,26 +1,122 @@
 @import "tailwindcss";
+@import "lenis/dist/lenis.css";
 
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  /* Nueve exact-ish warm stone */
+  --bg: #e8e4d9;
+  --bg-elevated: #efebe1;
+  --fg: #000000;
+  --muted: #5a564c;
+  --accent: #000000;
+  --accent-soft: #222222;
+  --line: #d2cec2;
+  --gallery: #0a0a0a;
+  --gallery-fg: #e8e4d9;
+  --overlay: rgb(0 0 0 / 0.4);
+
+  /*
+   * Stacks must not share the same custom-property name as @theme tokens
+   * (avoids --font-body: var(--font-body) cycles that drop the real face).
+   */
+  --font-display-stack: var(--font-display-loaded), "Times New Roman", serif;
+  --font-body-stack: var(--font-body-loaded), system-ui, sans-serif;
+
+  --space-page-x: clamp(1.25rem, 2.8vw, 2.5rem);
+  --space-section-y: clamp(3.5rem, 10vw, 6.25rem);
+  --type-display: clamp(4.5rem, 16vw, 15rem);
+  --type-hero-line: clamp(2.4rem, 7vw, 6.25rem);
+  --type-hero-accent: clamp(4rem, 12vw, 11.25rem);
+  --type-title: clamp(3rem, 8vw, 9rem);
+  --type-body: 1.125rem;
+  --arch-w: clamp(12rem, 21vw, 18.75rem);
+  --arch-h: clamp(28rem, 100vh, 56.25rem);
+}
+
+html[data-theme="dark"] {
+  --bg: #0a0a0a;
+  --bg-elevated: #121212;
+  --fg: #e8e4d9;
+  --muted: #9a958a;
+  --accent: #e8e4d9;
+  --accent-soft: #d2cec2;
+  --line: #2a2a2a;
 }
 
 @theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
+  --color-bg: var(--bg);
+  --color-bg-elevated: var(--bg-elevated);
+  --color-fg: var(--fg);
+  --color-muted: var(--muted);
+  --color-accent: var(--accent);
+  --color-accent-soft: var(--accent-soft);
+  --color-line: var(--line);
+  --color-gallery: var(--gallery);
+  --color-gallery-fg: var(--gallery-fg);
+  --font-display: var(--font-display-stack);
+  --font-sans: var(--font-body-stack);
+  --font-body: var(--font-body-stack);
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+html {
+  overflow-x: clip;
+  background-color: var(--bg);
+  transition: background-color 0.45s ease, color 0.45s ease;
 }
 
 body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  background-color: transparent;
+  color: var(--fg);
+  font-family: var(--font-body-stack);
+  font-size: var(--type-body);
+  line-height: 1.7;
+  min-height: 100%;
+  transition: color 0.45s ease;
+}
+
+::selection {
+  background: rgb(0 0 0 / 0.15);
+  color: var(--fg);
+}
+
+html[data-theme="dark"] ::selection {
+  background: rgb(232 228 217 / 0.2);
+}
+
+.font-display {
+  font-family: var(--font-display-stack);
+  font-optical-sizing: auto;
+}
+
+.font-body {
+  font-family: var(--font-body-stack);
+}
+
+/*
+ * Mask for GSAP line reveals: keep overflow clip for the wipe,
+ * but reserve vertical room so Vietnamese stacked marks aren’t cut.
+ */
+.hero-line-mask {
+  overflow: hidden;
+  padding-block: 0.35em 0.1em;
+  margin-block: -0.35em -0.1em;
+}
+
+.page-x {
+  padding-inline: var(--space-page-x);
+}
+
+.section-y {
+  padding-block: var(--space-section-y);
+}
+
+.arch-frame {
+  border-radius: 500px 500px 0 0;
+  overflow: hidden;
+}
+
+/* Custom cursor (CursorDot) — hide system cursor on fine pointers */
+body.has-cursor,
+body.has-cursor a,
+body.has-cursor button {
+  cursor: none;
 }

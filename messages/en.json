@@ -1,0 +1,102 @@
+{
+  "meta": {
+    "siteName": "PML Resort",
+    "homeTitle": "PML Resort — Apartment reference",
+    "homeDescription": "Browse apartments and contact PML Resort. Inquiry only — no online purchase.",
+    "apartmentsTitle": "Apartments — PML Resort",
+    "contactTitle": "Contact — PML Resort"
+  },
+  "nav": {
+    "home": "Home",
+    "apartments": "Apartments",
+    "contact": "Contact",
+    "openMenu": "Open menu",
+    "closeMenu": "Close menu"
+  },
+  "cta": {
+    "contact": "Contact",
+    "zalo": "Chat on Zalo",
+    "call": "Call",
+    "viewApartment": "View apartment",
+    "viewAll": "View all apartments",
+    "sendInquiry": "Send inquiry"
+  },
+  "home": {
+    "heroTitle": "there is no place like",
+    "heroAccent": "home.",
+    "heroBody": "Browse reference apartments and reach the PML Resort team.",
+    "introTitle": "deco.",
+    "introBody": "Our collection of select residences, designed with an emphasis on comfort, style, and functionality, offers you a unique stay.",
+    "introBodySecondary": "Whether you prefer the spaciousness of Sky Residence, the compact calm of Garden Suite, or the panorama of Horizon Loft, each choice is worth a closer look.",
+    "introBodyTertiary": "With modern decor, earthy tones, and the amenities you need — ideal for families, couples, or friends. Relax, enjoy your space, and discover the area at your own pace.",
+    "featuredTitle": "residences.",
+    "featuredEyebrow": "Residences",
+    "featuredBody": "A few highlights to start with.",
+    "galleryTitle": "gallery.",
+    "galleryTabAll": "All",
+    "galleryBody": "Atmosphere and living details.",
+    "amenitiesTitle": "amenities.",
+    "amenitiesBody": "Each accommodation offers a distinct experience.",
+    "contactTitle": "contact.",
+    "contactBody": "Call, message on Zalo, or send the form — we will reply soon."
+  },
+  "apartments": {
+    "title": "Apartments",
+    "body": "Reference listing. Open a residence for details and inquiry.",
+    "empty": "No apartments published yet.",
+    "specs": {
+      "bedrooms": "Bedrooms",
+      "bathrooms": "Bathrooms",
+      "area": "Area",
+      "areaShort": "sq.m.",
+      "floor": "Floor"
+    },
+    "status": {
+      "available": "Available",
+      "reserved": "Reserved",
+      "sold": "Sold"
+    },
+    "taglineComfort": "comfort",
+    "comfortTitle": "comfort",
+    "gallery": "Gallery",
+    "viewPhotos": "View photos",
+    "backToApartment": "Back to apartment",
+    "inquiryCta": "Interested in this residence? Contact us.",
+    "backToList": "Back to listing"
+  },
+  "contact": {
+    "title": "Contact",
+    "body": "Send a message, or reach us by phone or Zalo.",
+    "hotline": "Hotline",
+    "zalo": "Zalo",
+    "email": "Email",
+    "address": "Address",
+    "openMaps": "Open in Google Maps",
+    "apartmentRef": "Apartment of interest",
+    "form": {
+      "name": "Full name",
+      "email": "Email",
+      "phone": "Phone",
+      "message": "Message",
+      "submit": "Send message",
+      "sending": "Sending…",
+      "success": "Sent. We will get back to you soon.",
+      "error": "Could not send. Please try again or call / Zalo.",
+      "invalid": "Please check the fields and try again.",
+      "notConfigured": "Email is not configured yet. Please call or message on Zalo."
+    }
+  },
+  "footer": {
+    "rights": "© {year} PML Resort. All rights reserved.",
+    "inquiryOnly": "Reference site — no online payments."
+  },
+  "a11y": {
+    "skipToContent": "Skip to content",
+    "localeSwitcher": "Choose language",
+    "carouselPrev": "Previous slide",
+    "carouselNext": "Next slide",
+    "carouselDot": "Go to slide {index}",
+    "openPhoto": "View photo: {alt}",
+    "closeLightbox": "Close photo"
+  }
+}

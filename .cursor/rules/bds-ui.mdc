@@ -1,0 +1,15 @@
+---
+description: UI and design-system rules inspired by Nueve editorial luxury
+globs: app/**/*.{tsx,css},components/**/*.{tsx,css}
+alwaysApply: false
+---
+
+# BDS UI
+
+- Follow `docs/DESIGN.md`. Hero = brand + one headline + one sentence + CTA + full-bleed image only.
+- No hero overlays (badges, chips, stickers). No cards in the hero.
+- Cards only for interactive listing items. Prefer editorial full-bleed sections.
+- Typography via `next/font` + CSS variables; avoid Inter/Roboto/Arial/system-only.
+- Earthy editorial palette via CSS variables — avoid purple-indigo AI gradients.
+- Use Embla for carousels. Use Tailwind v4 (`@import "tailwindcss"`, `@theme`).
+- Respect `prefers-reduced-motion` for scroll/animation wrappers.

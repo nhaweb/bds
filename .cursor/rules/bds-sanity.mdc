@@ -1,0 +1,14 @@
+---
+description: Sanity CMS conventions for apartments and site content
+globs: sanity/**/*.{ts,tsx,js},lib/sanity/**/*.{ts,tsx}
+alwaysApply: false
+---
+
+# Sanity
+
+- Apartment inventory and photography live in Sanity — do not hardcode listings in React.
+- Localize user-facing CMS strings (vi/en) via Sanity locale fields or parallel fields; document the chosen pattern in schemas.
+- Images: `@sanity/image-url` + explicit width/quality; never raw unbounded asset URLs in UI.
+- Keep schemas under `sanity/schemaTypes/` (or project equivalent); export from a single index.
+- Studio must support: apartments, site settings (phone, Zalo, email), home page content.
+- Price fields are display strings for inquiry, not payment amounts.

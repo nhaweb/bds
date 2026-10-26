@@ -1,0 +1,14 @@
+---
+description: Core product & stack rules for the BDS apartment reference site
+alwaysApply: true
+---
+
+# BDS core
+
+- Product: apartment **reference / inquiry** site. No checkout, cart, payments, or booking calendar.
+- Stack: Next.js App Router + TS + Tailwind v4 · Sanity · GSAP/ScrollTrigger + Lenis or Motion · Embla · next-intl (vi default, en) · Resend + tel + Zalo · Vercel (dev) · fly.io (prod).
+- Read `AGENTS.md`, `docs/PRODUCT.md`, `docs/DESIGN.md` before major feature work.
+- Prefer third-party libs over custom carousels, CMS, email, or complex scroll engines.
+- After structure / i18n / env / dependency changes: `npm run harness`.
+- Never commit secrets; keep `.env.example` as the source of required keys.
+- CTAs = Liên hệ / Contact / Zalo / Gọi — never Mua ngay / Buy now / Checkout.

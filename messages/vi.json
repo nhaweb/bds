@@ -1,0 +1,102 @@
+{
+  "meta": {
+    "siteName": "PML Resort",
+    "homeTitle": "PML Resort — Căn hộ tham khảo",
+    "homeDescription": "Tham khảo căn hộ và liên hệ PML Resort. Không mua bán trực tuyến.",
+    "apartmentsTitle": "Căn hộ — PML Resort",
+    "contactTitle": "Liên hệ — PML Resort"
+  },
+  "nav": {
+    "home": "Trang chủ",
+    "apartments": "Căn hộ",
+    "contact": "Liên hệ",
+    "openMenu": "Mở menu",
+    "closeMenu": "Đóng menu"
+  },
+  "cta": {
+    "contact": "Liên hệ",
+    "zalo": "Nhắn Zalo",
+    "call": "Gọi ngay",
+    "viewApartment": "Xem căn hộ",
+    "viewAll": "Xem tất cả căn hộ",
+    "sendInquiry": "Gửi yêu cầu"
+  },
+  "home": {
+    "heroTitle": "không đâu bằng",
+    "heroAccent": "nhà.",
+    "heroBody": "Tham khảo căn hộ và liên hệ đội ngũ PML Resort.",
+    "introTitle": "deco.",
+    "introBody": "Bộ sưu tập căn hộ được chọn lọc — chú trọng sự thoải mái, phong cách và công năng, mang đến trải nghiệm sống riêng.",
+    "introBodySecondary": "Dù bạn thích không gian rộng của Sky Residence, sự gọn gàng của Garden Suite, hay tầm nhìn Horizon Loft — mỗi lựa chọn đều đáng cân nhắc.",
+    "introBodyTertiary": "Tone đất, nội thất hiện đại và đầy đủ tiện nghi. Thư giãn, tận hưởng, khám phá nhịp sống quanh khuôn viên theo cách của bạn.",
+    "featuredTitle": "residences.",
+    "featuredEyebrow": "Residences",
+    "featuredBody": "Một vài lựa chọn tiêu biểu để bắt đầu.",
+    "galleryTitle": "gallery.",
+    "galleryTabAll": "Tất cả",
+    "galleryBody": "Không khí và chi tiết không gian sống.",
+    "amenitiesTitle": "amenities.",
+    "amenitiesBody": "Mỗi căn hộ mang một trải nghiệm riêng.",
+    "contactTitle": "contact.",
+    "contactBody": "Gọi điện, nhắn Zalo hoặc gửi form — chúng tôi sẽ phản hồi sớm."
+  },
+  "apartments": {
+    "title": "Căn hộ",
+    "body": "Danh sách căn hộ tham khảo. Chi tiết và liên hệ qua từng trang.",
+    "empty": "Chưa có căn hộ nào được đăng.",
+    "specs": {
+      "bedrooms": "Phòng ngủ",
+      "bathrooms": "Phòng tắm",
+      "area": "Diện tích",
+      "areaShort": "m²",
+      "floor": "Tầng"
+    },
+    "status": {
+      "available": "Còn trống",
+      "reserved": "Đã giữ chỗ",
+      "sold": "Đã bán"
+    },
+    "taglineComfort": "thoải mái",
+    "comfortTitle": "comfort",
+    "gallery": "Thư viện ảnh",
+    "viewPhotos": "Xem ảnh",
+    "backToApartment": "Quay lại căn hộ",
+    "inquiryCta": "Quan tâm căn này? Liên hệ chúng tôi.",
+    "backToList": "Quay lại danh sách"
+  },
+  "contact": {
+    "title": "Liên hệ",
+    "body": "Gửi thông tin liên hệ hoặc gọi / nhắn Zalo trực tiếp.",
+    "hotline": "Hotline",
+    "zalo": "Zalo",
+    "email": "Email",
+    "address": "Địa chỉ",
+    "openMaps": "Mở Google Maps",
+    "apartmentRef": "Căn hộ quan tâm",
+    "form": {
+      "name": "Họ và tên",
+      "email": "Email",
+      "phone": "Số điện thoại",
+      "message": "Nội dung",
+      "submit": "Gửi liên hệ",
+      "sending": "Đang gửi…",
+      "success": "Đã gửi. Chúng tôi sẽ liên hệ lại sớm.",
+      "error": "Không gửi được. Vui lòng thử lại hoặc gọi / Zalo.",
+      "invalid": "Vui lòng kiểm tra lại thông tin đã nhập.",
+      "notConfigured": "Form chưa cấu hình email. Vui lòng gọi hoặc nhắn Zalo."
+    }
+  },
+  "footer": {
+    "rights": "© {year} PML Resort. Mọi quyền được bảo lưu.",
+    "inquiryOnly": "Trang tham khảo — không thanh toán trực tuyến."
+  },
+  "a11y": {
+    "skipToContent": "Bỏ qua đến nội dung",
+    "localeSwitcher": "Chọn ngôn ngữ",
+    "carouselPrev": "Ảnh trước",
+    "carouselNext": "Ảnh tiếp",
+    "carouselDot": "Đến ảnh {index}",
+    "openPhoto": "Xem ảnh: {alt}",
+    "closeLightbox": "Đóng ảnh"
+  }
+}

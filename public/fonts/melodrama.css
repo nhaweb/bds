@@ -1,0 +1,37 @@
+﻿/* Melodrama — local copies (Fontshare license) */
+@font-face {
+  font-family: "Melodrama";
+  src: url("/fonts/melodrama-1.woff2") format("woff2");
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Melodrama";
+  src: url("/fonts/melodrama-2.woff2") format("woff2");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Melodrama";
+  src: url("/fonts/melodrama-3.woff2") format("woff2");
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+/* Synthetic italic fallback for accents like “home.” */
+@font-face {
+  font-family: "Melodrama";
+  src: url("/fonts/melodrama-1.woff2") format("woff2");
+  font-weight: 300;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Melodrama";
+  src: url("/fonts/melodrama-3.woff2") format("woff2");
+  font-weight: 600;
+  font-style: italic;
+  font-display: swap;
+}

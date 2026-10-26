@@ -1,0 +1,13 @@
+---
+description: Vercel preview and fly.io production deployment conventions
+globs: fly.toml,Dockerfile,Dockerfile.*,.github/**/*.{yml,yaml},next.config.*
+alwaysApply: false
+---
+
+# Deploy
+
+- Dev/preview: Vercel. Production: fly.io (Docker or Node start).
+- Production env on Fly: Sanity tokens, Resend API key, contact inbox, public site URL.
+- `next start` (or standalone output) behind Fly; set correct `PORT` / `HOSTNAME`.
+- Do not bake secrets into the image; use Fly secrets / Vercel env.
+- Follow skill `bds-deploy` for Dockerfile and health checks.

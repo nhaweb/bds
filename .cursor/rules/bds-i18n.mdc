@@ -1,0 +1,13 @@
+---
+description: next-intl Vietnamese/English conventions
+globs: messages/**/*.json,i18n/**/*.{ts,tsx},**/middleware.ts,app/**/layout.tsx
+alwaysApply: false
+---
+
+# i18n
+
+- Locales: `vi` (default), `en`. Use `next-intl` App Router setup.
+- UI chrome strings in `messages/vi.json` and `messages/en.json` — keep key trees identical.
+- After adding keys, run `npm run harness:i18n` (or full `npm run harness`).
+- Locale switcher must preserve path (apartment slug strategy: shared slug or localized slug map — pick one and stick to it).
+- Do not mix hardcoded Vietnamese/English in components; use `useTranslations` / `getTranslations`.

@@ -52,9 +52,9 @@ Define CSS variables in `app/globals.css`:
 }
 ```
 
-Typography: **Playfair** (`--font-display`, Vietnamese + optical size) + **Be Vietnam Pro** (`--font-body`). Both via `next/font` with `vietnamese` subset — Melodrama/Manrope dropped because stacked marks clipped or fell back at hero sizes.
+Typography: **Playfair** (`--font-display`, Vietnamese + optical size) + **Manrope** (`--font-body`). Both via `next/font` with `vietnamese` subset. Watch stacked marks on bold hero lines (`.hero-line-mask` helps).
 
-Hero pattern: Be Vietnam Pro extrabold line + Playfair italic accent + centered **arch** that scrubs into deco (not full-bleed). Line reveals use `.hero-line-mask` so diacritics aren’t cropped. Page **inverts to dark** when gallery enters (`data-theme="dark"`). Gallery: tabs + `25px` rounded portraits + pinned horizontal scrub.
+Hero pattern: Manrope extrabold line + Playfair italic accent + centered **arch** that scrubs into deco (not full-bleed). Line reveals use `.hero-line-mask` so diacritics aren’t cropped. Page **inverts to dark** when gallery enters (`data-theme="dark"`). Gallery: tabs + `25px` rounded portraits + pinned horizontal scrub.
 
 Light mode first. Dark only if brand asks.
 

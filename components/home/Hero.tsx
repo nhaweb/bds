@@ -35,7 +35,7 @@ export function Hero({ brand, headline, accent, imageUrl, imageAlt }: Props) {
               <div className="hero-line-mask">
                 <p
                   data-hero-line
-                  className="font-body text-[length:var(--type-hero-line)] leading-[1.18] font-extrabold tracking-[-0.03em] text-fg"
+                  className="font-body text-[length:var(--type-hero-line)] leading-[1.28] font-extrabold tracking-[-0.03em] text-fg"
                 >
                   {headline || t("heroTitle")}
                 </p>
@@ -43,7 +43,7 @@ export function Hero({ brand, headline, accent, imageUrl, imageAlt }: Props) {
               <div className="hero-line-mask -mt-[0.06em]">
                 <p
                   data-hero-line
-                  className="font-display text-[length:var(--type-hero-accent)] leading-[1.05] font-light tracking-normal italic"
+                  className="font-display text-[length:var(--type-hero-accent)] leading-[1.15] font-light tracking-normal italic"
                 >
                   {accent || t("heroAccent")}
                 </p>

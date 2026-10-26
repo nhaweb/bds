@@ -1,7 +1,7 @@
 import { Suspense, type ReactNode } from "react";
 import { hasLocale, NextIntlClientProvider } from "next-intl";
 import { getLocale, getMessages } from "next-intl/server";
-import { Be_Vietnam_Pro, Playfair } from "next/font/google";
+import { Manrope, Playfair } from "next/font/google";
 import { notFound } from "next/navigation";
 import { Footer } from "@/components/layout/Footer";
 import { Header } from "@/components/layout/Header";
@@ -17,7 +17,7 @@ import "../globals.css";
 
 /**
  * Display: Playfair (Didot-like contrast + Vietnamese marks).
- * Body: Be Vietnam Pro — designed for Vietnamese, keeps bold hero line clean.
+ * Body: Manrope — geometric sans; check Vietnamese diacritics at hero sizes.
  */
 const display = Playfair({
   subsets: ["latin", "vietnamese"],
@@ -28,9 +28,8 @@ const display = Playfair({
   axes: ["opsz"],
 });
 
-const body = Be_Vietnam_Pro({
+const body = Manrope({
   subsets: ["latin", "vietnamese"],
-  weight: ["400", "500", "600", "700", "800"],
   variable: "--font-body-loaded",
   display: "swap",
 });

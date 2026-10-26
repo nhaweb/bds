@@ -41,8 +41,11 @@
     "contactBody": "Gọi điện, nhắn Zalo hoặc gửi form — chúng tôi sẽ phản hồi sớm."
   },
   "apartments": {
-    "title": "Căn hộ",
-    "body": "Danh sách căn hộ tham khảo. Chi tiết và liên hệ qua từng trang.",
+    "eyebrow": "Bộ sưu tập",
+    "count": "{count} căn",
+    "title": "căn hộ.",
+    "body": "Không gian được chọn lọc — ảnh lớn, thông tin gọn. Mở từng căn để xem chi tiết và liên hệ.",
+    "contactPrompt": "Quan tâm một căn? Gọi, nhắn Zalo hoặc gửi form — chúng tôi phản hồi sớm.",
     "empty": "Chưa có căn hộ nào được đăng.",
     "specs": {
       "bedrooms": "Phòng ngủ",

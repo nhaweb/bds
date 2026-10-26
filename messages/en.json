@@ -41,8 +41,11 @@
     "contactBody": "Call, message on Zalo, or send the form — we will reply soon."
   },
   "apartments": {
-    "title": "Apartments",
-    "body": "Reference listing. Open a residence for details and inquiry.",
+    "eyebrow": "Collection",
+    "count": "{count} residences",
+    "title": "residences.",
+    "body": "A curated set — large photography, quiet details. Open a residence for the full story and inquiry.",
+    "contactPrompt": "Drawn to a residence? Call, message on Zalo, or send the form — we reply soon.",
     "empty": "No apartments published yet.",
     "specs": {
       "bedrooms": "Bedrooms",
